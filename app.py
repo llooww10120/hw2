@@ -70,7 +70,7 @@ def hw2():
     question = jBody['Question']
     print(question)    
 
-    userId = 'ntustB10730026'
+    userId = 'ntustb10730026'
     if question.find('|') != -1:    
         answer = "".join(question.split(' '))
         answer = answer.replace('|',userId)
